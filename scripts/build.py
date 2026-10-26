@@ -771,6 +771,12 @@ def write_site(posts):
     if calc_src.is_dir():
         shutil.copytree(calc_src, OUTPUT_DIR / "calculator")
 
+    # Privacy policy at /privacy/ (linked from Google's OAuth consent screen for the
+    # Dssmove YouTube Uploader). Source: static/privacy/index.html.
+    privacy_src = STATIC_DIR / "privacy"
+    if privacy_src.is_dir():
+        shutil.copytree(privacy_src, OUTPUT_DIR / "privacy")
+
 
 # ---------------------------------------------------------------------------
 # CLI
