@@ -43,11 +43,10 @@ SITE_URL = "https://blog.dssmove.co.uk"
 SITE_NAME = "DSSmove blog"
 PUBLISHER_NAME = "DSSmove"
 
-# Calculator URL — standalone benefits calculator hosted from this blog at /calculator/.
-# Source HTML is at static/calculator/index.html.
-# Was originally intended to live at www.dssmove.co.uk/calculator/ but that was never deployed.
+# The one benefits calculator, on the main DSSmove site. It has the current rates and official postcode
+# areas. Old links to /calculator/ on this blog redirect there (static/calculator/index.html).
 # Used by the calculator banner in base.html / post.html templates.
-CALCULATOR_URL = "https://blog.dssmove.co.uk/calculator/"
+CALCULATOR_URL = "https://www.dssmove.co.uk/calculator"
 
 # GitHub Pages custom-domain CNAME. Written into public/CNAME on every build.
 # Pages reads this file to know the site's custom hostname.
